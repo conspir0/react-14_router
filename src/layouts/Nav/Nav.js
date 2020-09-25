@@ -2,9 +2,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Nav.css';
 
+
 const list = [
   { name: 'Home', path: '/', exact: true },
-  { name: 'Products', path: '/product', exact: false },
+  { name: 'Products', path: '/products', exact: false },
   { name: 'Contact', path: '/contact', exact: false },
   { name: 'Login', path: '/login', exact: false },
 ]
