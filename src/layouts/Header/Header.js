@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
+
 import homeImage from './../../images/home.jpeg';
 import productsImage from './../../images/products.jpeg';
 import contactImage from './../../images/contact.jpeg';
@@ -26,8 +27,7 @@ const Header = () => {
           src={route.src}
           alt={route.alt}
           className={`header-img ${route.className}`} />
-      )}>
-    </Route>
+      )} />
   ))
 
   return (
