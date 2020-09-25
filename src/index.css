@@ -14,3 +14,8 @@ body {
   color: #1c1417;
   background: rgb(251, 197, 49);
 }
+
+a {
+  color: #1c1417;
+  text-decoration: none;
+}

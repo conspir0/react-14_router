@@ -6,3 +6,35 @@
 .nav-elem:not(:nth-of-type(1)) {
   margin-left: 20px;
 }
+
+.nav-link {
+  position: relative;
+  display: block;
+  padding: 5px 30px 15px;
+  transition: .2s ease;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%) rotate(45deg);
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  transition: .2s ease;
+}
+
+.nav-link:hover,
+.nav-link--active {
+  transform: scale(1.1);
+  transition: .2s ease;
+}
+
+.nav-link:hover::before,
+.nav-link--active::before {
+  bottom: -8px;
+  transition: .2s ease;
+}
