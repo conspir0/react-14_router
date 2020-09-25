@@ -1,0 +1,8 @@
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav-elem:not(:nth-of-type(1)) {
+  margin-left: 20px;
+}
