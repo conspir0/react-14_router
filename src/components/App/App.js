@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, NavLink, Switch } from 'react-router-dom';
 import './App.css';
 
 const Home = () => <h1>Home</h1>;
 const News = () => <h1>News</h1>;
 const Contact = () => <h1>Contact</h1>;
+const Error = () => <h1>Error</h1>;
 
 class App extends Component {
   render() {
@@ -14,16 +15,19 @@ class App extends Component {
           <header>
             <nav>
               <ul>
-                <li><Link to="/">Start</Link></li>
-                <li><Link to="/news">News</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li><NavLink to="/" exact activeClassName="current">Start</NavLink></li>
+                <li><NavLink to="/news">News</NavLink></li>
+                <li><NavLink to="/contact">Contact</NavLink></li>
               </ul>
             </nav>
           </header>
           <section>
-            <Route path="/" exact component={Home} />
-            <Route path="/news" component={News} />
-            <Route path="/contact" component={Contact} />
+            <Switch>
+              <Route path="/" exact component={Home} />
+              <Route path="/news" component={News} />
+              <Route path="/contact" component={Contact} />
+              <Route component={Error} />
+            </Switch>
           </section>
         </div>
       </Router>
