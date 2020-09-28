@@ -5,6 +5,7 @@ import HomeView from './../../pages/Home/Home';
 import ProductsView from './../../pages/Products/Products';
 import ContactView from './../../pages/Contact/Contact';
 import LoginView from './../../pages/Login/Login';
+import AdminView from './../../pages/Admin/Admin';
 import ErrorView from './../../pages/Error/Error';
 
 
@@ -13,6 +14,7 @@ const list = [
   { path: '/products', exact: false, component: ProductsView },
   { path: '/contact', exact: false, component: ContactView },
   { path: '/login', exact: false, component: LoginView },
+  { path: '/admin', exact: false, component: AdminView },
   { exact: false, component: ErrorView },
 ]
 

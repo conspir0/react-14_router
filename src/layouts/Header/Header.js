@@ -5,6 +5,7 @@ import homeImage from './../../images/home.jpeg';
 import productsImage from './../../images/products.jpeg';
 import contactImage from './../../images/contact.jpeg';
 import loginImage from './../../images/login.jpeg';
+import adminImage from './../../images/admin.jpeg';
 import errorImage from './../../images/error.png';
 import './Header.css';
 
@@ -14,6 +15,7 @@ const list = [
   { path: '/products', src: productsImage, alt: 'Products page image', exact: false },
   { path: '/contact', src: contactImage, alt: 'Products page image', exact: false },
   { path: '/login', src: loginImage, alt: 'Login page image', exact: false },
+  { path: '/admin', src: adminImage, alt: 'LAdmin page image', exact: false },
   { src: errorImage, alt: 'Error image', exact: false, className: "header-img--error" },
 ];
 
