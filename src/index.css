@@ -4,7 +4,8 @@
   margin: 0;
 }
 
-html {
+html,
+textarea {
   font-family: Arial, Helvetica, sans-serif;
 }
 
