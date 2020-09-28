@@ -1,0 +1,19 @@
+{
+  "main.css": "/react-14_router/static/css/main.87d1cec8.chunk.css",
+  "main.js": "/react-14_router/static/js/main.5fe14b9a.chunk.js",
+  "main.js.map": "/react-14_router/static/js/main.5fe14b9a.chunk.js.map",
+  "runtime~main.js": "/react-14_router/static/js/runtime~main.e501bfa6.js",
+  "runtime~main.js.map": "/react-14_router/static/js/runtime~main.e501bfa6.js.map",
+  "static/js/2.09f5dbca.chunk.js": "/react-14_router/static/js/2.09f5dbca.chunk.js",
+  "static/js/2.09f5dbca.chunk.js.map": "/react-14_router/static/js/2.09f5dbca.chunk.js.map",
+  "index.html": "/react-14_router/index.html",
+  "precache-manifest.54a2548d6a8baa0dcb93fd331ddb297f.js": "/react-14_router/precache-manifest.54a2548d6a8baa0dcb93fd331ddb297f.js",
+  "service-worker.js": "/react-14_router/service-worker.js",
+  "static/css/main.87d1cec8.chunk.css.map": "/react-14_router/static/css/main.87d1cec8.chunk.css.map",
+  "static/media/admin.jpeg": "/react-14_router/static/media/admin.b265dc17.jpeg",
+  "static/media/contact.jpeg": "/react-14_router/static/media/contact.7e7ab0fd.jpeg",
+  "static/media/error.png": "/react-14_router/static/media/error.94b47e38.png",
+  "static/media/home.jpeg": "/react-14_router/static/media/home.e8a9be88.jpeg",
+  "static/media/login.jpeg": "/react-14_router/static/media/login.0170e436.jpeg",
+  "static/media/products.jpeg": "/react-14_router/static/media/products.2545c883.jpeg"
+}
